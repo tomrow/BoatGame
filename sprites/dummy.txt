@@ -1,0 +1,1 @@
+Only way of creating folders in web Github is creating a new file in there as if it already exists
