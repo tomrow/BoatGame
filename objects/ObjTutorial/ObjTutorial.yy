@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Tutoral",
-    "path": "sprites/Tutoral/Tutoral.yy",
+    "name": "SprTutoral",
+    "path": "sprites/SprTutoral/SprTutoral.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tutorial",
+  "name": "ObjTutorial",
   "tags": [],
   "resourceType": "GMObject",
 }
