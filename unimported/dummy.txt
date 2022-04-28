@@ -1,0 +1,1 @@
+Here you can upload non-code assets that should be imported later. I don't know how GMS will handle random objects dumped into the folders so please put them in here first and then import them regularly in GMS. 
