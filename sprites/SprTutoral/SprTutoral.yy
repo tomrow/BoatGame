@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"73bba748-5493-4734-aa28-8043a34cde83","path":"sprites/Tutoral/Tutoral.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"73bba748-5493-4734-aa28-8043a34cde83","path":"sprites/Tutoral/Tutoral.yy",},"LayerId":{"name":"46746a1f-0c9e-438d-b446-f45bf6d2c036","path":"sprites/Tutoral/Tutoral.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Tutoral","path":"sprites/Tutoral/Tutoral.yy",},"resourceVersion":"1.0","name":"73bba748-5493-4734-aa28-8043a34cde83","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a352fc32-4249-4649-b9f1-547292033704","path":"sprites/SprTutoral/SprTutoral.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a352fc32-4249-4649-b9f1-547292033704","path":"sprites/SprTutoral/SprTutoral.yy",},"LayerId":{"name":"481271e4-c89f-4a27-8960-5fe539ff3858","path":"sprites/SprTutoral/SprTutoral.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"SprTutoral","path":"sprites/SprTutoral/SprTutoral.yy",},"resourceVersion":"1.0","name":"a352fc32-4249-4649-b9f1-547292033704","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Tutoral","path":"sprites/Tutoral/Tutoral.yy",},
+    "spriteId": {"name":"SprTutoral","path":"sprites/SprTutoral/SprTutoral.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"96779319-07b6-4450-97ef-5fc4cac1d1e5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"73bba748-5493-4734-aa28-8043a34cde83","path":"sprites/Tutoral/Tutoral.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"fe4f606a-a3eb-49cb-b60f-626476aedb3b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a352fc32-4249-4649-b9f1-547292033704","path":"sprites/SprTutoral/SprTutoral.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Tutoral","path":"sprites/Tutoral/Tutoral.yy",},
+    "parent": {"name":"SprTutoral","path":"sprites/SprTutoral/SprTutoral.yy",},
     "resourceVersion": "1.4",
-    "name": "Tutoral",
+    "name": "SprTutoral",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"46746a1f-0c9e-438d-b446-f45bf6d2c036","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"481271e4-c89f-4a27-8960-5fe539ff3858","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Tutoral",
+  "name": "SprTutoral",
   "tags": [],
   "resourceType": "GMSprite",
 }
