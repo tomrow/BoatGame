@@ -5,6 +5,7 @@
     {"id":{"name":"qteBarCursor","path":"sprites/qteBarCursor/qteBarCursor.yy",},"order":13,},
     {"id":{"name":"qteBarMiss","path":"sprites/qteBarMiss/qteBarMiss.yy",},"order":11,},
     {"id":{"name":"ObjectDrowningSwimmer","path":"objects/ObjectDrowningSwimmer/ObjectDrowningSwimmer.yy",},"order":7,},
+    {"id":{"name":"tutorial","path":"objects/tutorial/tutorial.yy",},"order":20,},
     {"id":{"name":"sprFish","path":"sprites/sprFish/sprFish.yy",},"order":15,},
     {"id":{"name":"sprWTile","path":"sprites/sprWTile/sprWTile.yy",},"order":9,},
     {"id":{"name":"sprBoat","path":"sprites/sprBoat/sprBoat.yy",},"order":0,},
@@ -23,6 +24,7 @@
     {"id":{"name":"ObjectTT_TugOWarMinigameP2","path":"objects/ObjectTT_TugOWarMinigameP2/ObjectTT_TugOWarMinigameP2.yy",},"order":11,},
     {"id":{"name":"Spload","path":"sprites/Spload/Spload.yy",},"order":4,},
     {"id":{"name":"dosfont","path":"fonts/dosfont/dosfont.yy",},"order":0,},
+    {"id":{"name":"Tutoral","path":"sprites/Tutoral/Tutoral.yy",},"order":20,},
     {"id":{"name":"qteBarHitTarget","path":"sprites/qteBarHitTarget/qteBarHitTarget.yy",},"order":10,},
     {"id":{"name":"ObjectFightPickup","path":"objects/ObjectFightPickup/ObjectFightPickup.yy",},"order":13,},
     {"id":{"name":"RoomDebugTitleScreen","path":"rooms/RoomDebugTitleScreen/RoomDebugTitleScreen.yy",},"order":2,},
@@ -30,6 +32,7 @@
     {"id":{"name":"RoomButtonTest","path":"rooms/RoomButtonTest/RoomButtonTest.yy",},"order":1,},
     {"id":{"name":"SpriteAnimatedWater","path":"sprites/SpriteAnimatedWater/SpriteAnimatedWater.yy",},"order":17,},
     {"id":{"name":"Object360MovableSpritewasd","path":"objects/Object360MovableSpritewasd/Object360MovableSpritewasd.yy",},"order":3,},
+    {"id":{"name":"tutoral","path":"rooms/tutoral/tutoral.yy",},"order":3,},
     {"id":{"name":"ObjectQTEMinigameP1","path":"objects/ObjectQTEMinigameP1/ObjectQTEMinigameP1.yy",},"order":6,},
     {"id":{"name":"ObjectSolid","path":"objects/ObjectSolid/ObjectSolid.yy",},"order":16,},
     {"id":{"name":"ObjButtonGameLoad","path":"objects/ObjButtonGameLoad/ObjButtonGameLoad.yy",},"order":2,},
@@ -39,6 +42,7 @@
     {"id":{"name":"qteBarTarget","path":"sprites/qteBarTarget/qteBarTarget.yy",},"order":12,},
     {"id":{"name":"sprCasualty","path":"sprites/sprCasualty/sprCasualty.yy",},"order":5,},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},"order":0,},
+    {"id":{"name":"scorecount","path":"objects/scorecount/scorecount.yy",},"order":19,},
     {"id":{"name":"SpriteBtnOver","path":"sprites/SpriteBtnOver/SpriteBtnOver.yy",},"order":2,},
     {"id":{"name":"ObjectDrowningSwimmer2","path":"objects/ObjectDrowningSwimmer2/ObjectDrowningSwimmer2.yy",},"order":10,},
     {"id":{"name":"ObjTitleLogo","path":"objects/ObjTitleLogo/ObjTitleLogo.yy",},"order":14,},
@@ -62,6 +66,7 @@
     {"roomId":{"name":"RoomDebugTitleScreen","path":"rooms/RoomDebugTitleScreen/RoomDebugTitleScreen.yy",},},
     {"roomId":{"name":"RoomTestLevel","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},},
     {"roomId":{"name":"RoomButtonTest","path":"rooms/RoomButtonTest/RoomButtonTest.yy",},},
+    {"roomId":{"name":"tutoral","path":"rooms/tutoral/tutoral.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -85,7 +90,9 @@
   "TextureGroups": [
     {"isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"dummy.txt","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.3.0.625",
   },
