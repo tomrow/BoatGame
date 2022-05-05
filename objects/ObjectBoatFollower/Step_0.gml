@@ -58,4 +58,26 @@ if(!(global.paused))
 		camera_set_view_size(view_camera[0], 426, 240);
 		camera_set_view_border(view_camera[0], 426, 240);
 	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 60A3824C
+	/// @DnDParent : 0352A84B
+	/// @DnDArgument : "code" "var animatedwateramt = instance_number(ObjWater)$(13_10)var vpsize = camera_get_view_height(view_camera[0])/240$(13_10)var baseallowedtiles = 32$(13_10)var allowedtiles = floor(baseallowedtiles * vpsize * vpsize)$(13_10)var posx = 0$(13_10)var posy = 0$(13_10)for (var i = 0; i < 32; i += 1)$(13_10){$(13_10)if((animatedwateramt<allowedtiles)){$(13_10)	//create tiles in random 32x32 spots$(13_10)	posx = floor((random_range(0,camera_get_view_width(view_camera[0]))+camera_get_view_x(view_camera[0]))/32)$(13_10)	posy = floor((random_range(0,camera_get_view_height(view_camera[0]))+camera_get_view_y(view_camera[0]))/32)$(13_10)	instance_create_layer(posx*32, posy*32, "background_visuals_only", ObjWater)$(13_10)	animatedwateramt = instance_number(ObjWater)$(13_10)}$(13_10)}$(13_10)"
+	var animatedwateramt = instance_number(ObjWater)
+	var vpsize = camera_get_view_height(view_camera[0])/240
+	var baseallowedtiles = 32
+	var allowedtiles = floor(baseallowedtiles * vpsize * vpsize)
+	var posx = 0
+	var posy = 0
+	for (var i = 0; i < 32; i += 1)
+	{
+	if((animatedwateramt<allowedtiles)){
+		//create tiles in random 32x32 spots
+		posx = floor((random_range(0,camera_get_view_width(view_camera[0]))+camera_get_view_x(view_camera[0]))/32)
+		posy = floor((random_range(0,camera_get_view_height(view_camera[0]))+camera_get_view_y(view_camera[0]))/32)
+		instance_create_layer(posx*32, posy*32, "background_visuals_only", ObjWater)
+		animatedwateramt = instance_number(ObjWater)
+	}
+	}
 }
