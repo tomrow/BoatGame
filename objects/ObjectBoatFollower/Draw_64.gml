@@ -18,6 +18,6 @@ draw_text(200, 0, string("waters: ") + string(instance_number(ObjWater)));
 /// @DnDHash : 6710BD2C
 /// @DnDArgument : "x" "200"
 /// @DnDArgument : "y" "16"
-/// @DnDArgument : "caption" ""allowed waters: ""
-/// @DnDArgument : "var" "allowedtiles"
-draw_text(200, 16, string("allowed waters: ") + string(allowedtiles));
+/// @DnDArgument : "caption" ""index: ""
+/// @DnDArgument : "var" "asset_get_index("RoomTestLevel")"
+draw_text(200, 16, string("index: ") + string(asset_get_index("RoomTestLevel")));
