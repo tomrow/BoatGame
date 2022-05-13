@@ -19,5 +19,5 @@ draw_text(200, 0, string("waters: ") + string(instance_number(ObjWater)));
 /// @DnDArgument : "x" "200"
 /// @DnDArgument : "y" "16"
 /// @DnDArgument : "caption" ""index: ""
-/// @DnDArgument : "var" "asset_get_index("RoomTestLevel")"
-draw_text(200, 16, string("index: ") + string(asset_get_index("RoomTestLevel")));
+/// @DnDArgument : "var" "global.DebugCollSelfAssign"
+draw_text(200, 16, string("index: ") + string(global.DebugCollSelfAssign));

@@ -17,3 +17,10 @@ touched = 0;
 /// @DnDArgument : "expr" "false"
 /// @DnDArgument : "var" "enabled_minigame"
 enabled_minigame = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1672A3F7
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "enabled_touch"
+enabled_touch = true;

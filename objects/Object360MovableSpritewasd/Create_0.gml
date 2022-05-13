@@ -54,9 +54,3 @@ xposf = floor(x);
 /// @DnDArgument : "expr" "floor(y)"
 /// @DnDArgument : "var" "yposf"
 yposf = floor(y);
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 50886148
-/// @DnDArgument : "var" "global.Rescues2P"
-global.Rescues2P = 0;

@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Object360MovableSprite","path":"objects/Object360MovableSprite/Object360MovableSprite.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":96.0,"resourceVersion":"1.0","name":"inst_26F2E7C2","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"Object360MovableSpritewasd","path":"objects/Object360MovableSpritewasd/Object360MovableSpritewasd.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":160.0,"resourceVersion":"1.0","name":"inst_1CCE6AC0","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjectBoatFollower","path":"objects/ObjectBoatFollower/ObjectBoatFollower.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":160.0,"y":96.0,"resourceVersion":"1.0","name":"inst_36CBEC9C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjectDrowningSwimmer","path":"objects/ObjectDrowningSwimmer/ObjectDrowningSwimmer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":96.0,"resourceVersion":"1.0","name":"inst_45B02CC1","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjectDrowningSwimmer","path":"objects/ObjectDrowningSwimmer/ObjectDrowningSwimmer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":256.0,"resourceVersion":"1.0","name":"inst_4B715227","tags":[],"resourceType":"GMRInstance",},
@@ -101,6 +100,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjLogicController","path":"objects/ObjLogicController/ObjLogicController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-32.0,"resourceVersion":"1.0","name":"inst_2A667904","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjectBoatOnFire","path":"objects/ObjectBoatOnFire/ObjectBoatOnFire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":384.0,"resourceVersion":"1.0","name":"inst_61662939","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjectBoatOnFire","path":"objects/ObjectBoatOnFire/ObjectBoatOnFire.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":768.0,"y":384.0,"resourceVersion":"1.0","name":"inst_3F3A6012","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Object27","path":"objects/Object27/Object27.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":160.0,"resourceVersion":"1.0","name":"inst_106C987F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjWater","path":"objects/ObjWater/ObjWater.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":0.0,"resourceVersion":"1.0","name":"inst_308F0D8","tags":[],"resourceType":"GMRInstance",},
@@ -824,7 +824,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_26F2E7C2","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
-    {"name":"inst_1CCE6AC0","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
     {"name":"inst_36CBEC9C","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
     {"name":"inst_45B02CC1","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
     {"name":"inst_4B715227","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
@@ -1623,6 +1622,7 @@
     {"name":"inst_29643F8F","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
     {"name":"inst_7D65E22C","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
     {"name":"inst_377F9139","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
+    {"name":"inst_106C987F","path":"rooms/RoomTestLevel/RoomTestLevel.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
