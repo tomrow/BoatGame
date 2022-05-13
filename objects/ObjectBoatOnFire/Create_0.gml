@@ -14,4 +14,32 @@ speed = 8;
 /// @DnDVersion : 1
 /// @DnDHash : 7A0FAA07
 /// @DnDArgument : "steps" "15"
-alarm_set(0, 15);
+/// @DnDArgument : "alarm" "2"
+alarm_set(2, 15);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 504605F4
+/// @DnDArgument : "expr" "noone"
+/// @DnDArgument : "var" "miniGameObj"
+miniGameObj = noone;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 351E9D4B
+/// @DnDArgument : "var" "touched"
+touched = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0C37C9C9
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "enabled_minigame"
+enabled_minigame = false;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2EB2DE25
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "enabled_touch"
+enabled_touch = true;

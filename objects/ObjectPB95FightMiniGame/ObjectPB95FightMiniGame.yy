@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "2PMinigames",
+    "path": "folders/Objects/2PMinigames.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectPB95FightMiniGame",

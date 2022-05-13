@@ -27,3 +27,16 @@ y_boat_distance = 0;
 /// @DnDHash : 1431DE91
 /// @DnDArgument : "code" "view_camera[0] = camera_create_view(0, 0, 426*(pythag_dist/10), 240*(pythag_dist/10), 0, ObjectBoatFollower, -1, -1, 400*(pythag_dist/10), 240*(pythag_dist/10));"
 view_camera[0] = camera_create_view(0, 0, 426*(pythag_dist/10), 240*(pythag_dist/10), 0, ObjectBoatFollower, -1, -1, 400*(pythag_dist/10), 240*(pythag_dist/10));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1EB5625C
+/// @DnDArgument : "var" "allowedtiles"
+allowedtiles = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 61748DFC
+/// @DnDArgument : "expr" "true"
+/// @DnDArgument : "var" "room_persistent"
+room_persistent = true;
