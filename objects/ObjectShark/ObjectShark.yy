@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteShark",
-    "path": "sprites/SpriteShark/SpriteShark.yy",
+    "name": "sprOverWorldShark",
+    "path": "sprites/sprOverWorldShark/sprOverWorldShark.yy",
   },
   "solid": false,
   "visible": true,
