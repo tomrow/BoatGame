@@ -9,7 +9,7 @@ if(!(global.paused))
 	/// @DnDVersion : 1
 	/// @DnDHash : 1D8A3128
 	/// @DnDParent : 3FF013D9
-	/// @DnDArgument : "code" "KeyUp = keyboard_check(vk_up);$(13_10)KeyDown = keyboard_check(vk_down);$(13_10)KeyLeft = keyboard_check(vk_left);$(13_10)KeyRight = keyboard_check(vk_right);$(13_10)$(13_10)xvelocity += 0-KeyLeft;$(13_10)$(13_10)xvelocity += KeyRight;$(13_10)$(13_10)yvelocity += 0-KeyUp;$(13_10)$(13_10)yvelocity += KeyDown;$(13_10)$(13_10)yposf += yvelocity/4;$(13_10)$(13_10)xposf += xvelocity/4;$(13_10)$(13_10)// (xposf and yposf) are used to store float values before $(13_10)// they are rounded down to int for positioning the sprite.$(13_10)// the subpixel shimmering doesn't look very good when applied to $(13_10)// unfiltered pixel art.$(13_10)// if we go for an adobe flash kinda aesthetic, remove$(13_10)// "floor" from these two Value fields.$(13_10)y = floor(yposf);$(13_10)$(13_10)x = floor(xposf);$(13_10)$(13_10)$(13_10)if(place_meeting(x, y, ObjectSolid))$(13_10){$(13_10)	yposf -= yvelocity/3;$(13_10)	xposf -= xvelocity/3;$(13_10)	//go back first to avoid getting stuck$(13_10)	$(13_10)	x = floor(xposf);$(13_10)	y = floor(yposf);$(13_10)	//make sure its definitely where we want it before inverting velocities$(13_10)	$(13_10)	xvelocity = 0-xvelocity;$(13_10)	yvelocity = 0-yvelocity;$(13_10)	//hack until I find how to normalise these and do proper trigo reflections with these two values$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)if(yvelocity = 0)$(13_10){$(13_10)	if(xvelocity<0)$(13_10)	{$(13_10)		angledir = -90$(13_10)	}else$(13_10)	{$(13_10)		angledir = 90$(13_10)	}$(13_10)}$(13_10)else$(13_10){$(13_10)	if(yvelocity>0)$(13_10)	{$(13_10)		angledir = (180+radtodeg(arctan(xvelocity/(0-yvelocity))))$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		angledir = (0+radtodeg(arctan(xvelocity/(0-yvelocity))))$(13_10)	}$(13_10)}$(13_10)//point toward position + velocity$(13_10)//if the dpad is held$(13_10)$(13_10)if((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0))$(13_10){$(13_10)	angledir = 0-angledir$(13_10)	image_angle = angledir$(13_10)}$(13_10)//if it isn't, dont rotate$(13_10)//var inputsdpad = ((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0))$(13_10)xvelocity = xvelocity * 0.97$(13_10)yvelocity = yvelocity * 0.97$(13_10)//round down the values so we dont get any fractional residue values from the drag$(13_10)var decdigits = 64$(13_10)//not sure, but either gml or many other langs implement floor incorrectly.$(13_10)//something wikipedia had to say regarding ancient microsoft excel:$(13_10)/*In Microsoft Excel the floor function is implemented as INT $(13_10)(which rounds down rather than toward zero).[52]$(13_10)The command FLOOR in earlier versions would round toward zero, $(13_10)effectively the opposite of what "int" and "floor" do in other languages. $(13_10)Since 2010 FLOOR has been fixed to round down, with extra arguments that $(13_10)can reproduce previous behavior.[53] The OpenDocument file format, as used $(13_10)by OpenOffice.org, Libreoffice and others, uses the same function names; INT $(13_10)does floor[54] and FLOOR has a third argument that can make it round toward $(13_10)zero.[55]$(13_10)*/$(13_10)$(13_10)if (xvelocity>0)$(13_10){$(13_10)	xvelocity = floor(xvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)else$(13_10){$(13_10)	xvelocity = ceil(xvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)if (yvelocity>0)$(13_10){$(13_10)	yvelocity = floor(yvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)else$(13_10){$(13_10)	yvelocity = ceil(yvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)/**/$(13_10)$(13_10)if(((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0)))$(13_10){$(13_10)	sprite_index = sprBoatSplash;$(13_10)	image_index += 0.05;$(13_10)}$(13_10)else$(13_10){$(13_10)	sprite_index = sprBoat;$(13_10)	image_index = 0;$(13_10)}"
+	/// @DnDArgument : "code" "KeyUp = keyboard_check(vk_up);$(13_10)KeyDown = keyboard_check(vk_down);$(13_10)KeyLeft = keyboard_check(vk_left);$(13_10)KeyRight = keyboard_check(vk_right);$(13_10)$(13_10)xvelocity += 0-KeyLeft;$(13_10)$(13_10)xvelocity += KeyRight;$(13_10)$(13_10)yvelocity += 0-KeyUp;$(13_10)$(13_10)yvelocity += KeyDown;$(13_10)$(13_10)yposf += yvelocity/4;$(13_10)$(13_10)xposf += xvelocity/4;$(13_10)$(13_10)// (xposf and yposf) are used to store float values before $(13_10)// they are rounded down to int for positioning the sprite.$(13_10)// the subpixel shimmering doesn't look very good when applied to $(13_10)// unfiltered pixel art.$(13_10)// if we go for an adobe flash kinda aesthetic, remove$(13_10)// "floor" from these two Value fields.$(13_10)y = floor(yposf);$(13_10)$(13_10)x = floor(xposf);$(13_10)$(13_10)$(13_10)if(place_meeting(x, y, ObjectSolid))$(13_10){$(13_10)	yposf -= yvelocity/3;$(13_10)	xposf -= xvelocity/3;$(13_10)	//go back first to avoid getting stuck$(13_10)	$(13_10)	x = floor(xposf);$(13_10)	y = floor(yposf);$(13_10)	//make sure its definitely where we want it before inverting velocities$(13_10)	$(13_10)	xvelocity = 0-xvelocity;$(13_10)	yvelocity = 0-yvelocity;$(13_10)	//hack until I find how to normalise these and do proper trigo reflections with these two values$(13_10)}$(13_10)$(13_10)//###################Tileset collisions#######################$(13_10)var lay_id = layer_get_id("Solids"); //Get the layer ID$(13_10)var tile_id = layer_tilemap_get_id(lay_id); //idk what this does yet, I just copied it from the reference$(13_10)if(tilemap_get_at_pixel(tile_id, x, y-16)!=0) //up$(13_10){$(13_10)	yposf -= yvelocity/3;$(13_10)	xposf -= xvelocity/3;$(13_10)	//go back first to avoid getting stuck$(13_10)	$(13_10)	x = floor(xposf);$(13_10)	y = floor(yposf);$(13_10)	//make sure its definitely where we want it before inverting velocities$(13_10)	$(13_10)	xvelocity = 0-xvelocity;$(13_10)	yvelocity = 0-yvelocity;$(13_10)	//hack until I find how to normalise these and do proper trigo reflections with these two values$(13_10)}$(13_10)$(13_10)if(tilemap_get_at_pixel(tile_id, x, y+16)!=0) //down$(13_10){$(13_10)	yposf -= yvelocity/3;$(13_10)	xposf -= xvelocity/3;$(13_10)	//go back first to avoid getting stuck$(13_10)	$(13_10)	x = floor(xposf);$(13_10)	y = floor(yposf);$(13_10)	//make sure its definitely where we want it before inverting velocities$(13_10)	$(13_10)	xvelocity = 0-xvelocity;$(13_10)	yvelocity = 0-yvelocity;$(13_10)	//hack until I find how to normalise these and do proper trigo reflections with these two values$(13_10)}$(13_10)$(13_10)if(tilemap_get_at_pixel(tile_id, x-16, y)!=0) //left$(13_10){$(13_10)	yposf -= yvelocity/3;$(13_10)	xposf -= xvelocity/3;$(13_10)	//go back first to avoid getting stuck$(13_10)	$(13_10)	x = floor(xposf);$(13_10)	y = floor(yposf);$(13_10)	//make sure its definitely where we want it before inverting velocities$(13_10)	$(13_10)	xvelocity = 0-xvelocity;$(13_10)	yvelocity = 0-yvelocity;$(13_10)	//hack until I find how to normalise these and do proper trigo reflections with these two values$(13_10)}$(13_10)$(13_10)if(tilemap_get_at_pixel(tile_id, x+16, y)!=0) //right$(13_10){$(13_10)	yposf -= yvelocity/3;$(13_10)	xposf -= xvelocity/3;$(13_10)	//go back first to avoid getting stuck$(13_10)	$(13_10)	x = floor(xposf);$(13_10)	y = floor(yposf);$(13_10)	//make sure its definitely where we want it before inverting velocities$(13_10)	$(13_10)	xvelocity = 0-xvelocity;$(13_10)	yvelocity = 0-yvelocity;$(13_10)	//hack until I find how to normalise these and do proper trigo reflections with these two values$(13_10)}$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)$(13_10)if(yvelocity = 0)$(13_10){$(13_10)	if(xvelocity<0)$(13_10)	{$(13_10)		angledir = -90$(13_10)	}else$(13_10)	{$(13_10)		angledir = 90$(13_10)	}$(13_10)}$(13_10)else$(13_10){$(13_10)	if(yvelocity>0)$(13_10)	{$(13_10)		angledir = (180+radtodeg(arctan(xvelocity/(0-yvelocity))))$(13_10)	}$(13_10)	else$(13_10)	{$(13_10)		angledir = (0+radtodeg(arctan(xvelocity/(0-yvelocity))))$(13_10)	}$(13_10)}$(13_10)//point toward position + velocity$(13_10)//if the dpad is held$(13_10)$(13_10)if((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0))$(13_10){$(13_10)	angledir = 0-angledir$(13_10)	image_angle = angledir$(13_10)}$(13_10)//if it isn't, dont rotate$(13_10)//var inputsdpad = ((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0))$(13_10)xvelocity = xvelocity * 0.97$(13_10)yvelocity = yvelocity * 0.97$(13_10)//round down the values so we dont get any fractional residue values from the drag$(13_10)var decdigits = 64$(13_10)//not sure, but either gml or many other langs implement floor incorrectly.$(13_10)//something wikipedia had to say regarding ancient microsoft excel:$(13_10)/*In Microsoft Excel the floor function is implemented as INT $(13_10)(which rounds down rather than toward zero).[52]$(13_10)The command FLOOR in earlier versions would round toward zero, $(13_10)effectively the opposite of what "int" and "floor" do in other languages. $(13_10)Since 2010 FLOOR has been fixed to round down, with extra arguments that $(13_10)can reproduce previous behavior.[53] The OpenDocument file format, as used $(13_10)by OpenOffice.org, Libreoffice and others, uses the same function names; INT $(13_10)does floor[54] and FLOOR has a third argument that can make it round toward $(13_10)zero.[55]$(13_10)*/$(13_10)$(13_10)if (xvelocity>0)$(13_10){$(13_10)	xvelocity = floor(xvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)else$(13_10){$(13_10)	xvelocity = ceil(xvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)if (yvelocity>0)$(13_10){$(13_10)	yvelocity = floor(yvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)else$(13_10){$(13_10)	yvelocity = ceil(yvelocity*(10^decdigits))/(10^decdigits)$(13_10)}$(13_10)/**/$(13_10)$(13_10)if(((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0)))$(13_10){$(13_10)	sprite_index = sprBoatSplash;$(13_10)	image_index += 0.05;$(13_10)}$(13_10)else$(13_10){$(13_10)	sprite_index = sprBoat;$(13_10)	image_index = 0;$(13_10)}"
 	KeyUp = keyboard_check(vk_up);
 	KeyDown = keyboard_check(vk_down);
 	KeyLeft = keyboard_check(vk_left);
@@ -52,6 +52,72 @@ if(!(global.paused))
 		yvelocity = 0-yvelocity;
 		//hack until I find how to normalise these and do proper trigo reflections with these two values
 	}
+	
+	//###################Tileset collisions#######################
+	var lay_id = layer_get_id("Solids"); //Get the layer ID
+	var tile_id = layer_tilemap_get_id(lay_id); //idk what this does yet, I just copied it from the reference
+	if(tilemap_get_at_pixel(tile_id, x, y-16)!=0) //up
+	{
+		yposf -= yvelocity/3;
+		xposf -= xvelocity/3;
+		//go back first to avoid getting stuck
+		
+		x = floor(xposf);
+		y = floor(yposf);
+		//make sure its definitely where we want it before inverting velocities
+		
+		xvelocity = 0-xvelocity;
+		yvelocity = 0-yvelocity;
+		//hack until I find how to normalise these and do proper trigo reflections with these two values
+	}
+	
+	if(tilemap_get_at_pixel(tile_id, x, y+16)!=0) //down
+	{
+		yposf -= yvelocity/3;
+		xposf -= xvelocity/3;
+		//go back first to avoid getting stuck
+		
+		x = floor(xposf);
+		y = floor(yposf);
+		//make sure its definitely where we want it before inverting velocities
+		
+		xvelocity = 0-xvelocity;
+		yvelocity = 0-yvelocity;
+		//hack until I find how to normalise these and do proper trigo reflections with these two values
+	}
+	
+	if(tilemap_get_at_pixel(tile_id, x-16, y)!=0) //left
+	{
+		yposf -= yvelocity/3;
+		xposf -= xvelocity/3;
+		//go back first to avoid getting stuck
+		
+		x = floor(xposf);
+		y = floor(yposf);
+		//make sure its definitely where we want it before inverting velocities
+		
+		xvelocity = 0-xvelocity;
+		yvelocity = 0-yvelocity;
+		//hack until I find how to normalise these and do proper trigo reflections with these two values
+	}
+	
+	if(tilemap_get_at_pixel(tile_id, x+16, y)!=0) //right
+	{
+		yposf -= yvelocity/3;
+		xposf -= xvelocity/3;
+		//go back first to avoid getting stuck
+		
+		x = floor(xposf);
+		y = floor(yposf);
+		//make sure its definitely where we want it before inverting velocities
+		
+		xvelocity = 0-xvelocity;
+		yvelocity = 0-yvelocity;
+		//hack until I find how to normalise these and do proper trigo reflections with these two values
+	}
+	
+	
+	
 	
 	
 	
