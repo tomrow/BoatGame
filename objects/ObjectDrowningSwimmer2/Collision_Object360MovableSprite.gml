@@ -28,7 +28,7 @@ if(!(global.paused))
 					alarm_set(1, 60*5); //set cooldown timer
 					global.InteractedEntity = self;
 					global.InteractedEntitySuccess = false;
-					room_goto(RoomMinigame2);
+					room_goto(DodgeCarMiniGame);
 				}
 	}
 }
