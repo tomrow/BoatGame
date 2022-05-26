@@ -84,8 +84,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "Fonts",
-    "path": "folders/Fonts.yy",
+    "name": "TOM",
+    "path": "folders/Fonts/TOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "chalkbd",

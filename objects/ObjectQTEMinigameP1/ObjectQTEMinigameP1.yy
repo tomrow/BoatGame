@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "2PMinigames",
-    "path": "folders/Objects/2PMinigames.yy",
+    "path": "folders/Objects/TOM/2PMinigames.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectQTEMinigameP1",

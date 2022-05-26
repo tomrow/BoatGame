@@ -1930,8 +1930,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "TOM",
+    "path": "folders/Rooms/TOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "RoomTestLevel2pTileSetCol",

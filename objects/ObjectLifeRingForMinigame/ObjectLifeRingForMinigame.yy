@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "GoldMinerMiniGame",
-    "path": "folders/Rooms/GoldMinerMiniGame.yy",
+    "path": "folders/Rooms/TOM/GoldMinerMiniGame.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectLifeRingForMinigame",

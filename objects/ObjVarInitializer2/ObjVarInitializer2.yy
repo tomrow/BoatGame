@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Duct tape",
-    "path": "folders/Objects/Duct tape.yy",
+    "path": "folders/Objects/TOM/Duct tape.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjVarInitializer2",

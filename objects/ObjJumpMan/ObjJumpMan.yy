@@ -30,7 +30,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "TestMiniGame",
-    "path": "folders/Rooms/TestMiniGame.yy",
+    "path": "folders/Rooms/TOM/TestMiniGame.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjJumpMan",

@@ -43,7 +43,7 @@
   },
   "parent": {
     "name": "BasketBall",
-    "path": "folders/Rooms/BasketBall.yy",
+    "path": "folders/Rooms/TOM/BasketBall.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room_BasketBall",

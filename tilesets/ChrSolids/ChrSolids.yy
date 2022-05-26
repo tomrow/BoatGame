@@ -234,7 +234,7 @@
   },
   "parent": {
     "name": "SolidsTiles",
-    "path": "folders/Tile Sets/SolidsTiles.yy",
+    "path": "folders/Tile Sets/TOM/SolidsTiles.yy",
   },
   "resourceVersion": "1.0",
   "name": "ChrSolids",

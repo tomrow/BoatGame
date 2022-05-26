@@ -14,8 +14,8 @@
   "soundFile": "Sound1.wav",
   "duration": 0.273005,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "TOM",
+    "path": "folders/Sounds/TOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sound1",

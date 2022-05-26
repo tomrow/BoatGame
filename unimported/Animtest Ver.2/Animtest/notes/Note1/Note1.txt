@@ -1,0 +1,17 @@
+
+___________________________________________
+############################################################################################
+ERROR in
+action number 1
+of  Step Event0
+for object ObjectBoatFollower:
+
+global variable name 'Vignette' index (100068) not set before reading it.
+ at gml_Object_ObjectBoatFollower_Step_0 (line 92) -        if(global.Vignette == 0)
+############################################################################################
+gml_Object_ObjectBoatFollower_Step_0 (line 92)
+
+155 158 MISSION SELECT DIALOG TL
+573 443 MISSION SELECT DIALOG BR
+
+

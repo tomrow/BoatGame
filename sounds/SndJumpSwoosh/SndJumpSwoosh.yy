@@ -14,8 +14,8 @@
   "soundFile": "SndJumpSwoosh.wav",
   "duration": 1.0,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "TOM",
+    "path": "folders/Sounds/TOM.yy",
   },
   "resourceVersion": "1.0",
   "name": "SndJumpSwoosh",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "path": "folders/Objects/TOM/UI.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectTitleScreenButton",

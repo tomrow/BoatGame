@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "TileSetTest",
-    "path": "folders/Tile Sets/TileSetTest.yy",
+    "path": "folders/Tile Sets/TOM/TileSetTest.yy",
   },
   "resourceVersion": "1.0",
   "name": "SprTileSetTest",
