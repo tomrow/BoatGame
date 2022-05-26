@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Control",
-    "path": "folders/Objects/Control.yy",
+    "path": "folders/Objects/TOM/Control.yy",
   },
   "resourceVersion": "1.0",
   "name": "Object27",

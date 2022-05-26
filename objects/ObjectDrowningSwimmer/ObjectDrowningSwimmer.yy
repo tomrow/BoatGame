@@ -32,7 +32,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Objectives",
-    "path": "folders/Objects/Objectives.yy",
+    "path": "folders/Objects/TOM/Objectives.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectDrowningSwimmer",

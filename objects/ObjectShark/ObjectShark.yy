@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SpriteShark",
-    "path": "sprites/SpriteShark/SpriteShark.yy",
+    "name": "sprOverWorldShark",
+    "path": "sprites/sprOverWorldShark/sprOverWorldShark.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Hazard",
-    "path": "folders/Objects/Hazard.yy",
+    "path": "folders/Objects/TOM/Hazard.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectShark",

@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Hazard",
-    "path": "folders/Objects/Hazard.yy",
+    "path": "folders/Objects/TOM/Hazard.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjWater",

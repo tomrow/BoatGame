@@ -102,7 +102,7 @@
   },
   "parent": {
     "name": "Characters",
-    "path": "folders/Sprites/Characters.yy",
+    "path": "folders/Sprites/TOM/Characters.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBoatSplash2",

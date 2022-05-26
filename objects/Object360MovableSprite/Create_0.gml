@@ -54,3 +54,10 @@ xposf = floor(x);
 /// @DnDArgument : "expr" "floor(y)"
 /// @DnDArgument : "var" "yposf"
 yposf = floor(y);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 34EF17A5
+/// @DnDArgument : "objectid" "ObjectReturnRoomSetter"
+/// @DnDSaveInfo : "objectid" "ObjectReturnRoomSetter"
+instance_create_layer(0, 0, "Instances", ObjectReturnRoomSetter);
