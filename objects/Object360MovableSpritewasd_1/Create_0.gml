@@ -54,3 +54,17 @@ xposf = floor(x);
 /// @DnDArgument : "expr" "floor(y)"
 /// @DnDArgument : "var" "yposf"
 yposf = floor(y);
+
+/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 6E39F5F1
+/// @DnDArgument : "xpos" "x"
+/// @DnDArgument : "ypos" "y"
+/// @DnDArgument : "objectid" "Object360MovableSprite"
+/// @DnDSaveInfo : "objectid" "Object360MovableSprite"
+instance_create_layer(x, y, "Instances", Object360MovableSprite);
+
+/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+/// @DnDVersion : 1
+/// @DnDHash : 1F7D9AB3
+instance_destroy();

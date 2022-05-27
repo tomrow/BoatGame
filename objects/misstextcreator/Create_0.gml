@@ -44,8 +44,8 @@ if(writingtoggle == "default")
 	/// @DnDParent : 374C686C
 	/// @DnDArgument : "section" ""Captions""
 	/// @DnDArgument : "key" ""m3""
-	/// @DnDArgument : "value" ""string_upper test..""
-	ini_write_string("Captions", "m3", "string_upper test..");
+	/// @DnDArgument : "value" ""Select this to go back to the hub""
+	ini_write_string("Captions", "m3", "Select this to go back to the hub");
 
 	/// @DnDAction : YoYo Games.Files.Ini_Write
 	/// @DnDVersion : 1
@@ -71,8 +71,27 @@ if(writingtoggle == "default")
 	/// @DnDParent : 374C686C
 	/// @DnDArgument : "section" ""Captions""
 	/// @DnDArgument : "key" ""m6""
-	/// @DnDArgument : "value" ""Day 3  Commission:  " Total of 5 Casualties. Extra Details: Very Rocky, extra piloting causion is needed."
-	ini_write_string("Captions", "m6", "Day 3  Commission:  " Total of 5 Casualties. Extra Details: Very Rocky, extra piloting causion is needed.);
+	/// @DnDArgument : "value" ""Day 3  Commission:  Total of 5 Casualties. Extra Details: Very Rocky, extra piloting causion is needed.""
+	ini_write_string("Captions", "m6", "Day 3  Commission:  Total of 5 Casualties. Extra Details: Very Rocky, extra piloting causion is needed.");
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 4FD258DE
+	/// @DnDParent : 374C686C
+	/// @DnDArgument : "code" "//Enter amount of rescues req'd to win here.$(13_10)$(13_10)ini_write_real("Conditions", "m1", 0);$(13_10)$(13_10)ini_write_real("Conditions", "m2", 0);$(13_10)$(13_10)ini_write_real("Conditions", "m3", 0);$(13_10)$(13_10)ini_write_real("Conditions", "m4", 3);$(13_10)$(13_10)ini_write_real("Conditions", "m5", 4);$(13_10)$(13_10)ini_write_real("Conditions", "m6", 5);$(13_10)"
+	//Enter amount of rescues req'd to win here.
+	
+	ini_write_real("Conditions", "m1", 0);
+	
+	ini_write_real("Conditions", "m2", 0);
+	
+	ini_write_real("Conditions", "m3", 0);
+	
+	ini_write_real("Conditions", "m4", 3);
+	
+	ini_write_real("Conditions", "m5", 4);
+	
+	ini_write_real("Conditions", "m6", 5);
 
 	/// @DnDAction : YoYo Games.Files.Close_Ini
 	/// @DnDVersion : 1
