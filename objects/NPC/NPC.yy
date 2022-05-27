@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "NpcLeft",
-    "path": "sprites/NpcLeft/NpcLeft.yy",
+    "name": "Spr_NPC",
+    "path": "sprites/Spr_NPC/Spr_NPC.yy",
   },
   "solid": true,
   "visible": true,

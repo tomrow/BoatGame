@@ -14,8 +14,8 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 128,
+  "width": 256,
+  "height": 256,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -25,6 +25,7 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"06af5a46-8a5b-44c0-b303-6544903d811b","path":"sprites/SprTileSetTest/SprTileSetTest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"06af5a46-8a5b-44c0-b303-6544903d811b","path":"sprites/SprTileSetTest/SprTileSetTest.yy",},"LayerId":{"name":"f8010248-0d75-42a6-9ae5-e96dc4183191","path":"sprites/SprTileSetTest/SprTileSetTest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"06af5a46-8a5b-44c0-b303-6544903d811b","path":"sprites/SprTileSetTest/SprTileSetTest.yy",},"LayerId":{"name":"90298832-112c-4962-8e42-20c799121c54","path":"sprites/SprTileSetTest/SprTileSetTest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"SprTileSetTest","path":"sprites/SprTileSetTest/SprTileSetTest.yy",},"resourceVersion":"1.0","name":"06af5a46-8a5b-44c0-b303-6544903d811b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
@@ -65,6 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"f8010248-0d75-42a6-9ae5-e96dc4183191","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"90298832-112c-4962-8e42-20c799121c54","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,

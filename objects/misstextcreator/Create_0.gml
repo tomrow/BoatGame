@@ -47,6 +47,15 @@ if(writingtoggle == "default")
 	/// @DnDArgument : "value" ""string_upper test..""
 	ini_write_string("Captions", "m3", "string_upper test..");
 
+	/// @DnDAction : YoYo Games.Files.Ini_Write
+	/// @DnDVersion : 1
+	/// @DnDHash : 2633AEDE
+	/// @DnDParent : 374C686C
+	/// @DnDArgument : "section" ""Captions""
+	/// @DnDArgument : "key" ""m4""
+	/// @DnDArgument : "value" ""Day 1 Commission: 3 Victims need saving off the coast roughly 3miles away, two in need of urgent help. .""
+	ini_write_string("Captions", "m4", "Day 1 Commission: 3 Victims need saving off the coast roughly 3miles away, two in need of urgent help. .");
+
 	/// @DnDAction : YoYo Games.Files.Close_Ini
 	/// @DnDVersion : 1
 	/// @DnDHash : 417D8233
