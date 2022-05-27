@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Missionsel",
-    "path": "sprites/Missionsel/Missionsel.yy",
+    "name": "Spr_MissionDesk",
+    "path": "sprites/Spr_MissionDesk/Spr_MissionDesk.yy",
   },
   "solid": false,
   "visible": true,
