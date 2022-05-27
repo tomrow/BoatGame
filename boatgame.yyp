@@ -259,7 +259,6 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"m4","path":"rooms/m4/m4.yy",},},
     {"roomId":{"name":"MissionCompleteContinue","path":"rooms/MissionCompleteContinue/MissionCompleteContinue.yy",},},
     {"roomId":{"name":"RoomInitialization","path":"rooms/RoomInitialization/RoomInitialization.yy",},},
     {"roomId":{"name":"DebugLevelSelectRoom","path":"rooms/DebugLevelSelectRoom/DebugLevelSelectRoom.yy",},},
@@ -283,6 +282,7 @@
     {"roomId":{"name":"m1","path":"rooms/m1/m1.yy",},},
     {"roomId":{"name":"m2","path":"rooms/m2/m2.yy",},},
     {"roomId":{"name":"m5","path":"rooms/m5/m5.yy",},},
+    {"roomId":{"name":"m4","path":"rooms/m4/m4.yy",},},
     {"roomId":{"name":"m6","path":"rooms/m6/m6.yy",},},
   ],
   "Folders": [
