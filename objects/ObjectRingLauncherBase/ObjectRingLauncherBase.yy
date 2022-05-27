@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprLifeBoatForMiniGameTemp",
-    "path": "sprites/SprLifeBoatForMiniGameTemp/SprLifeBoatForMiniGameTemp.yy",
+    "name": "sprBoat",
+    "path": "sprites/sprBoat/sprBoat.yy",
   },
   "solid": false,
   "visible": true,
