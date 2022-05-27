@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Files.Open_Ini
+/// @DnDVersion : 1
+/// @DnDHash : 6F77019B
+/// @DnDArgument : "filename" ""Missions.ini""
+ini_open("Missions.ini");
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4679DEBB
@@ -15,17 +21,22 @@ alarm_set(0, 3000);
 /// @DnDVersion : 1
 /// @DnDHash : 3F6F3579
 /// @DnDInput : 5
-/// @DnDArgument : "value_1" "round(random_range(3,5))"
+/// @DnDArgument : "value_1" "ini_read_real("Conditions",room_get_name(room),0)"
 /// @DnDArgument : "var" "global.Rescues1P"
 /// @DnDArgument : "var_1" "RequiredScore"
 /// @DnDArgument : "var_2" "global.Time_up"
 /// @DnDArgument : "var_3" "global.Rescues2P"
 /// @DnDArgument : "var_4" "Score"
 global.Rescues1P = 0;
-global.RequiredScore = round(random_range(3,5));
+global.RequiredScore = ini_read_real("Conditions",room_get_name(room),0);
 global.Time_up = 0;
 global.Rescues2P = 0;
 global.Score = 0;
+
+/// @DnDAction : YoYo Games.Files.Close_Ini
+/// @DnDVersion : 1
+/// @DnDHash : 0C3AAAA5
+ini_close();
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

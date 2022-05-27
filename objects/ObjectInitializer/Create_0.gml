@@ -41,3 +41,9 @@ global.DebugCollSelfAssign = 0;
 /// @DnDHash : 7591D5E5
 /// @DnDArgument : "steps" "120"
 alarm_set(0, 120);
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 47E5A9DD
+/// @DnDArgument : "code" "global.spd = 3;"
+global.spd = 3;

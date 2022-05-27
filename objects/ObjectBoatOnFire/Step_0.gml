@@ -64,8 +64,8 @@ if(!(global.paused))
 	/// @DnDVersion : 1
 	/// @DnDHash : 0DED9950
 	/// @DnDParent : 3139010E
-	/// @DnDArgument : "speed" "8"
-	speed = 8;
+	/// @DnDArgument : "speed" "5"
+	speed = 5;
 }
 
 /// @DnDAction : YoYo Games.Common.Else

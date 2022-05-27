@@ -30,7 +30,7 @@ if(!(global.paused))
 			alarm_set(1, 60*5); //set cooldown timer
 			global.InteractedEntity = self;
 			global.InteractedEntitySuccess = false;
-			room_goto(RoomMinigameWinTest);
+			room_goto(Room_Breakout);
 		}
 	
 		

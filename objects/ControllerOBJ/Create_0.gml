@@ -1,17 +1,19 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 686AFA8C
+/// @DnDDisabled : 1
 /// @DnDArgument : "code" "global.spd = 3;$(13_10)$(13_10)"
-global.spd = 3;
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 40F69A7E
-/// @DnDArgument : "xpos" "1366/2"
-/// @DnDArgument : "ypos" "768/2"
+/// @DnDDisabled : 1
+/// @DnDArgument : "xpos" "256"
+/// @DnDArgument : "ypos" "256"
 /// @DnDArgument : "objectid" "Player"
 /// @DnDSaveInfo : "objectid" "Player"
-instance_create_layer(1366/2, 768/2, "Instances", Player);
+
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

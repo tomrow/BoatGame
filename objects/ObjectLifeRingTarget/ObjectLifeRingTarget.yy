@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SprLifeRingTargetForMiniGameTemp",
-    "path": "sprites/SprLifeRingTargetForMiniGameTemp/SprLifeRingTargetForMiniGameTemp.yy",
+    "name": "sprCasualty2",
+    "path": "sprites/sprCasualty2/sprCasualty2.yy",
   },
   "solid": false,
   "visible": true,
