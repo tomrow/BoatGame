@@ -110,10 +110,9 @@ if(!(global.paused))
 		/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 37800A06
+		/// @DnDComment : Temporary removal
 		/// @DnDParent : 625E1751
-		/// @DnDArgument : "spriteind" "SpriteVignette"
-		/// @DnDSaveInfo : "spriteind" "SpriteVignette"
-		sprite_index = SpriteVignette;
+		sprite_index = noone;
 		image_index = 0;
 	}
 

@@ -5,9 +5,11 @@
 /// @DnDArgument : "value" "1"
 if(global.btnActive == 1)
 {
-	/// @DnDAction : YoYo Games.Rooms.Next_Room
+	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 4EDCABF1
+	/// @DnDHash : 030E80AC
 	/// @DnDParent : 25430B7F
-	room_goto_next();
+	/// @DnDArgument : "room" "DebugLevelSelectRoom"
+	/// @DnDSaveInfo : "room" "DebugLevelSelectRoom"
+	room_goto(DebugLevelSelectRoom);
 }
