@@ -65,6 +65,15 @@ if(writingtoggle == "default")
 	/// @DnDArgument : "value" ""Day 2  Commission: Unknown amount of casualties, Caution is advised. Extra Details: Foggy Conditions .""
 	ini_write_string("Captions", "m5", "Day 2  Commission: Unknown amount of casualties, Caution is advised. Extra Details: Foggy Conditions .");
 
+	/// @DnDAction : YoYo Games.Files.Ini_Write
+	/// @DnDVersion : 1
+	/// @DnDHash : 5800EE9A
+	/// @DnDParent : 374C686C
+	/// @DnDArgument : "section" ""Captions""
+	/// @DnDArgument : "key" ""m6""
+	/// @DnDArgument : "value" ""Day 3  Commission:  " Total of 5 Casualties. Extra Details: Very Rocky, extra piloting causion is needed."
+	ini_write_string("Captions", "m6", "Day 3  Commission:  " Total of 5 Casualties. Extra Details: Very Rocky, extra piloting causion is needed.);
+
 	/// @DnDAction : YoYo Games.Files.Close_Ini
 	/// @DnDVersion : 1
 	/// @DnDHash : 417D8233
