@@ -56,6 +56,7 @@ draw_text_ext_transformed(160,168, string_upper("Mission: ")+ string_upper(Missi
 /// @DnDHash : 0CD0C994
 /// @DnDDisabled : 1
 /// @DnDArgument : "x" "155"
+/// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "168"
 /// @DnDArgument : "xscale" "2"
 /// @DnDArgument : "yscale" "2"
