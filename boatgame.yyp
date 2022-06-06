@@ -196,6 +196,7 @@
     {"id":{"name":"Sprite1_1","path":"sprites/Sprite1_1/Sprite1_1.yy",},"order":1,},
     {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"order":16,},
     {"id":{"name":"SpriteHourGlass","path":"sprites/SpriteHourGlass/SpriteHourGlass.yy",},"order":11,},
+    {"id":{"name":"empty","path":"sprites/empty/empty.yy",},"order":9,},
     {"id":{"name":"ObjectBoatOnFire","path":"objects/ObjectBoatOnFire/ObjectBoatOnFire.yy",},"order":0,},
     {"id":{"name":"Spr_fog","path":"sprites/Spr_fog/Spr_fog.yy",},"order":4,},
     {"id":{"name":"CHANGERBUTTONleave","path":"objects/CHANGERBUTTONleave/CHANGERBUTTONleave.yy",},"order":7,},
