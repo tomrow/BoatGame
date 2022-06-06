@@ -16,7 +16,6 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"Button1","path":"objects/Button1/Button1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":96.0,"resourceVersion":"1.0","name":"inst_1491C011","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ControllerOBJ12","path":"objects/ControllerOBJ12/ControllerOBJ12.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":0.0,"resourceVersion":"1.0","name":"inst_64A84B36","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"DebugRoomobj","path":"objects/DebugRoomobj/DebugRoomobj.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_6A789011","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"ObjectInitializer_1","path":"objects/ObjectInitializer_1/ObjectInitializer_1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":-64.0,"resourceVersion":"1.0","name":"inst_608B8BB6","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"nighttoggle","path":"objects/nighttoggle/nighttoggle.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1248.0,"y":640.0,"resourceVersion":"1.0","name":"inst_50958B55","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"misstextcreator","path":"objects/misstextcreator/misstextcreator.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1408.0,"y":0.0,"resourceVersion":"1.0","name":"inst_46B6C41E","tags":[],"resourceType":"GMRInstance",},
@@ -31,7 +30,6 @@
   "instanceCreationOrder": [
     {"name":"inst_1491C011","path":"rooms/Title/Title.yy",},
     {"name":"inst_64A84B36","path":"rooms/Title/Title.yy",},
-    {"name":"inst_6A789011","path":"rooms/Title/Title.yy",},
     {"name":"inst_608B8BB6","path":"rooms/Title/Title.yy",},
     {"name":"inst_50958B55","path":"rooms/Title/Title.yy",},
     {"name":"inst_46B6C41E","path":"rooms/Title/Title.yy",},

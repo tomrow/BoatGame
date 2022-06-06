@@ -15,7 +15,6 @@
   "layers": [
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"missionpagehandler","path":"objects/missionpagehandler/missionpagehandler.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":0.0,"resourceVersion":"1.0","name":"inst_3B97FE65","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"DebugRoomobj_2","path":"objects/DebugRoomobj_2/DebugRoomobj_2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":0.0,"resourceVersion":"1.0","name":"inst_1E619217","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"CHANGERBUTTONleave","path":"objects/CHANGERBUTTONleave/CHANGERBUTTONleave.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":6.5,"scaleY":1.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1152.0,"y":64.0,"resourceVersion":"1.0","name":"inst_5CA6D4EB","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"portraitchanger","path":"objects/portraitchanger/portraitchanger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":16.1538467,"scaleY":15.0588236,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":149.0,"resourceVersion":"1.0","name":"inst_420D2ABF","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
@@ -29,7 +28,6 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_3B97FE65","path":"rooms/Mission_select/Mission_select.yy",},
-    {"name":"inst_1E619217","path":"rooms/Mission_select/Mission_select.yy",},
     {"name":"inst_5CA6D4EB","path":"rooms/Mission_select/Mission_select.yy",},
     {"name":"inst_420D2ABF","path":"rooms/Mission_select/Mission_select.yy",},
   ],
