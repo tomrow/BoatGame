@@ -1,3 +1,34 @@
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 1034527C
+/// @DnDArgument : "code" "var lay_id = layer_get_id("Solids"); //Get the layer ID$(13_10)var tile_id = layer_tilemap_get_id(lay_id); //idk what this does yet, I just copied it from the reference$(13_10)if(tilemap_get_at_pixel(tile_id, x, y)!=0)$(13_10){$(13_10)	instance_destroy(self)$(13_10)}$(13_10)//right$(13_10)if(tilemap_get_at_pixel(tile_id, x+32, y)!=0)$(13_10){$(13_10)	direction = (direction + 180) % 360;$(13_10)}$(13_10)//left$(13_10)if(tilemap_get_at_pixel(tile_id, x-32, y)!=0)$(13_10){$(13_10)	direction = (direction + 180) % 360;$(13_10)}$(13_10)//up$(13_10)if(tilemap_get_at_pixel(tile_id, x, y-32)!=0)$(13_10){$(13_10)	direction = (direction + 180) % 360;$(13_10)}$(13_10)//down$(13_10)if(tilemap_get_at_pixel(tile_id, x, y+32)!=0)$(13_10){$(13_10)	direction = (direction + 180) % 360;$(13_10)}$(13_10)$(13_10)"
+var lay_id = layer_get_id("Solids"); //Get the layer ID
+var tile_id = layer_tilemap_get_id(lay_id); //idk what this does yet, I just copied it from the reference
+if(tilemap_get_at_pixel(tile_id, x, y)!=0)
+{
+	instance_destroy(self)
+}
+//right
+if(tilemap_get_at_pixel(tile_id, x+32, y)!=0)
+{
+	direction = (direction + 180) % 360;
+}
+//left
+if(tilemap_get_at_pixel(tile_id, x-32, y)!=0)
+{
+	direction = (direction + 180) % 360;
+}
+//up
+if(tilemap_get_at_pixel(tile_id, x, y-32)!=0)
+{
+	direction = (direction + 180) % 360;
+}
+//down
+if(tilemap_get_at_pixel(tile_id, x, y+32)!=0)
+{
+	direction = (direction + 180) % 360;
+}
+
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 3139010E
