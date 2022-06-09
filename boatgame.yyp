@@ -240,6 +240,7 @@
     {"id":{"name":"Sprite59_1","path":"sprites/Sprite59_1/Sprite59_1.yy",},"order":17,},
     {"id":{"name":"Sprite26_1","path":"sprites/Sprite26_1/Sprite26_1.yy",},"order":27,},
     {"id":{"name":"RoomMisc","path":"sprites/RoomMisc/RoomMisc.yy",},"order":1,},
+    {"id":{"name":"ObjCasualtyGenerator","path":"objects/ObjCasualtyGenerator/ObjCasualtyGenerator.yy",},"order":7,},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":4,},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},"order":6,},
     {"id":{"name":"SprComingSoon","path":"sprites/SprComingSoon/SprComingSoon.yy",},"order":1,},
