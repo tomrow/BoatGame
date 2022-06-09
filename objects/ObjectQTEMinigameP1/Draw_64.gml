@@ -13,7 +13,7 @@ draw_sprite_ext(qteBarMiss, 0,  0,0, pxlsize, pxlsize, 0, $FFFFFF, 1);
 var for_iterator = 0; //for wasnt working at all so I have to replace it
 var xblockdrawpos = 0;
 var yblockdrawpos = 200*pxlsize;
-draw_text(300,300,internal_pos);
+//draw_text(300,300,internal_pos);
 //draw bar (blue)
 for (for_iterator = 0; for_iterator<16; for_iterator += 1)
 {

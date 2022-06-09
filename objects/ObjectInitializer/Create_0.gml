@@ -45,5 +45,7 @@ alarm_set(0, 120);
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 47E5A9DD
-/// @DnDArgument : "code" "global.spd = 3;"
+/// @DnDArgument : "code" "global.spd = 3;$(13_10)//global.Mission_completed=0;$(13_10)global.gamestarted = 0;$(13_10)"
 global.spd = 3;
+//global.Mission_completed=0;
+global.gamestarted = 0;

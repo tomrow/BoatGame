@@ -19,3 +19,10 @@ alarm_set(2, 60);
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "CountDownFontSize"
 CountDownFontSize += 1;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 2022DF66
+/// @DnDArgument : "soundid" "SoundBloop"
+/// @DnDSaveInfo : "soundid" "SoundBloop"
+audio_play_sound(SoundBloop, 0, 0);

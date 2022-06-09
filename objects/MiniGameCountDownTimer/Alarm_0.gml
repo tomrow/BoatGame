@@ -26,3 +26,10 @@ alarm_set(4, 60);
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "CountDownFontSize"
 CountDownFontSize += 1;
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 11C44834
+/// @DnDArgument : "soundid" "SoundBleep"
+/// @DnDSaveInfo : "soundid" "SoundBleep"
+audio_play_sound(SoundBleep, 0, 0);
