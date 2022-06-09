@@ -69,5 +69,5 @@ draw_text_transformed(15, 35, string("score needed: ") + string(global.RequiredS
 /// @DnDArgument : "xscale" "1.5"
 /// @DnDArgument : "yscale" "1.5"
 /// @DnDArgument : "caption" ""time left: ""
-/// @DnDArgument : "text" "timer"
-draw_text_transformed(15, 55, string("time left: ") + string(timer), 1.5, 1.5, 0);
+/// @DnDArgument : "text" "floor(timer/60)"
+draw_text_transformed(15, 55, string("time left: ") + string(floor(timer/60)), 1.5, 1.5, 0);

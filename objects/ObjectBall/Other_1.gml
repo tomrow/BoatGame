@@ -22,3 +22,12 @@ if(y > ObjPaddle.y)
 	}
 }
 audio_play_sound(SoundBloop, 0, 0);
+if(y<0)
+{
+	y=4
+}
+if(x>room_width)
+{
+	x=room_width-4
+}
+

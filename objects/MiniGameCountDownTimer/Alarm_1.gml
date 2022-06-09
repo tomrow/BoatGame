@@ -11,6 +11,13 @@ CountDownTimerString = "1";
 /// @DnDArgument : "steps" "60"
 alarm_set(0, 60);
 
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 3C999C1B
+/// @DnDArgument : "soundid" "SoundBloop"
+/// @DnDSaveInfo : "soundid" "SoundBloop"
+audio_play_sound(SoundBloop, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 4CBA74D8

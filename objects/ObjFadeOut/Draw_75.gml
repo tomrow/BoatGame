@@ -64,6 +64,13 @@ if(iterator == 256)
 	/// @DnDArgument : "room" "global.PendingMap"
 	room_goto(global.PendingMap);
 
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 50DF185C
+	/// @DnDApplyTo : all
+	/// @DnDParent : 5676F96D
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 6D69959E
