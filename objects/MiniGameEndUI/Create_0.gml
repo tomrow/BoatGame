@@ -29,8 +29,8 @@ DisplayFontSize = 3;
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 03F3D251
-/// @DnDArgument : "expr" "global.interactedEntitySuccess"
-if(global.interactedEntitySuccess)
+/// @DnDArgument : "expr" "global.InteractedEntitySuccess"
+if(global.InteractedEntitySuccess)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
