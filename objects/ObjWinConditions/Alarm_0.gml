@@ -44,7 +44,6 @@ if(global.Score >= global.RequiredScore)
 	/// @DnDHash : 2F1BC6ED
 	/// @DnDParent : 3FD5DFB2
 	/// @DnDArgument : "room" "Room1"
-	/// @DnDSaveInfo : "room" "Room1"
 	room_goto(Room1);
 }
 
@@ -77,6 +76,5 @@ else
 	/// @DnDHash : 4EA5D607
 	/// @DnDParent : 2EC63EF0
 	/// @DnDArgument : "room" "Room1"
-	/// @DnDSaveInfo : "room" "Room1"
 	room_goto(Room1);
 }

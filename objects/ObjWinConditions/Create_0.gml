@@ -58,4 +58,3 @@ timer = 3000;
 /// @DnDArgument : "xpos" "random_range(0,1332)"
 /// @DnDArgument : "ypos" "random_range(0,732)"
 /// @DnDArgument : "objectid" "scoreobj"
-/// @DnDSaveInfo : "objectid" "scoreobj"

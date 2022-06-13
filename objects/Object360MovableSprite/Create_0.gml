@@ -59,5 +59,4 @@ yposf = floor(y);
 /// @DnDVersion : 1
 /// @DnDHash : 34EF17A5
 /// @DnDArgument : "objectid" "ObjectReturnRoomSetter"
-/// @DnDSaveInfo : "objectid" "ObjectReturnRoomSetter"
 instance_create_layer(0, 0, "Instances", ObjectReturnRoomSetter);
