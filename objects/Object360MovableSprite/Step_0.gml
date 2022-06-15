@@ -247,11 +247,9 @@ if(!(global.paused))
 	}
 	//if it isn't, dont rotate
 	//var inputsdpad = ((KeyUp!=0) or (KeyDown!=0) or (KeyLeft!=0) or (KeyRight!=0))
-	xvelocity = xvelocity * 0.97
-	yvelocity = yvelocity * 0.97
+
 	
-	if(abs(xvelocity)>32){xvelocity = xvelocity * 0.7}
-	if(abs(yvelocity)>32){yvelocity = yvelocity * 0.7}
+
 	//round down the values so we dont get any fractional residue values from the drag
 	var decdigits = 64
 	//not sure, but either gml or many other langs implement floor incorrectly.
@@ -304,11 +302,17 @@ if(!(global.paused))
 		}
 	
 		WpoolCounter += 01;
+		xvelocity = xvelocity * 0.99;
+		yvelocity = yvelocity * 0.99;
 	}
 	else
 	{
 		WpoolCounter = 0;
 	
 		audio_stop_sound(SoundWPOOL);
+		xvelocity = xvelocity * 0.97;
+		yvelocity = yvelocity * 0.97;
+		if(abs(xvelocity)>32){xvelocity = xvelocity * 0.7;}
+		if(abs(yvelocity)>32){yvelocity = yvelocity * 0.7;}
 	}
 }
