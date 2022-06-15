@@ -8,5 +8,4 @@ alarm_set(0, 120);
 /// @DnDVersion : 1
 /// @DnDHash : 43EDDDC9
 /// @DnDArgument : "soundid" "SndBack"
-/// @DnDSaveInfo : "soundid" "SndBack"
 audio_play_sound(SndBack, 0, 0);

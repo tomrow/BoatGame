@@ -12,5 +12,4 @@ y = mouse_y;
 /// @DnDArgument : "x" "window_mouse_get_x()"
 /// @DnDArgument : "y" "window_mouse_get_y()"
 /// @DnDArgument : "sprite" "empty"
-/// @DnDSaveInfo : "sprite" "empty"
 draw_sprite(empty, 0, window_mouse_get_x(), window_mouse_get_y());

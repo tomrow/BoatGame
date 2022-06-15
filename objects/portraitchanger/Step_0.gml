@@ -21,7 +21,6 @@ if(!(global.Viewing_misspage == oldpageviewed))
 	/// @DnDParent : 6A08280D
 	/// @DnDArgument : "imageind" "portraitchangervar"
 	/// @DnDArgument : "spriteind" "missportrait"
-	/// @DnDSaveInfo : "spriteind" "missportrait"
 	sprite_index = missportrait;
 	image_index = portraitchangervar;
 }

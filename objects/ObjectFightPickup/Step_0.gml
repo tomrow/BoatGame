@@ -53,4 +53,33 @@ if(!(global.paused))
 			}
 		}
 	}
+
+	/// @DnDAction : YoYo Games.Movement.Set_Direction_Free
+	/// @DnDVersion : 1
+	/// @DnDHash : 35C8538D
+	/// @DnDParent : 4E181228
+	/// @DnDArgument : "direction" "dirspd"
+	/// @DnDArgument : "direction_relative" "1"
+	direction += dirspd;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 7363CF25
+	/// @DnDComment : Doubles if sprite is equal to dolphin
+	/// @DnDParent : 4E181228
+	/// @DnDArgument : "speed" "3*(1+(sprite_index==SprDolphin))"
+	speed = 3*(1+(sprite_index==SprDolphin));
+
+	/// @DnDAction : YoYo Games.Common.Execute_Code
+	/// @DnDVersion : 1
+	/// @DnDHash : 61B70EB4
+	/// @DnDParent : 4E181228
+	/// @DnDArgument : "code" "image_index = ((direction-90)<0) or ((direction-90)>179)$(13_10)var lay_id = layer_get_id("Solids"); //Get the layer ID$(13_10)var tile_id = layer_tilemap_get_id(lay_id); //idk what this does yet, I just copied it from the reference$(13_10)if(tilemap_get_at_pixel(tile_id, x, y)!=0)$(13_10){$(13_10)	direction = (direction + 180) % 360;$(13_10)}$(13_10)"
+	image_index = ((direction-90)<0) or ((direction-90)>179)
+	var lay_id = layer_get_id("Solids"); //Get the layer ID
+	var tile_id = layer_tilemap_get_id(lay_id); //idk what this does yet, I just copied it from the reference
+	if(tilemap_get_at_pixel(tile_id, x, y)!=0)
+	{
+		direction = (direction + 180) % 360;
+	}
 }

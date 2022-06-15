@@ -56,7 +56,6 @@ else
 				/// @DnDHash : 68F7227D
 				/// @DnDParent : 2020818E
 				/// @DnDArgument : "room" "Room1"
-				/// @DnDSaveInfo : "room" "Room1"
 				room_goto(Room1);
 			}
 		}

@@ -9,5 +9,4 @@ game_ended = 0;
 /// @DnDHash : 736FF337
 /// @DnDArgument : "soundid" "SndMiniGame2"
 /// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "SndMiniGame2"
 audio_play_sound(SndMiniGame2, 0, 1);
