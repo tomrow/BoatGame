@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "boatgame",
-    "path": "boatgame.yyp",
+    "name": "Hazard",
+    "path": "folders/Objects/TOM/Hazard.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectWPOOL",

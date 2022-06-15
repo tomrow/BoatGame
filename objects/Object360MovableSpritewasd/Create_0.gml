@@ -54,3 +54,9 @@ xposf = floor(x);
 /// @DnDArgument : "expr" "floor(y)"
 /// @DnDArgument : "var" "yposf"
 yposf = floor(y);
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 21E381F9
+/// @DnDArgument : "var" "WpoolCounter"
+WpoolCounter = 0;

@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"SoundWPOOL","path":"sounds/SoundWPOOL/SoundWPOOL.yy",},"order":14,},
     {"id":{"name":"Sprite19_2","path":"sprites/Sprite19_2/Sprite19_2.yy",},"order":8,},
     {"id":{"name":"m3","path":"rooms/m3/m3.yy",},"order":0,},
     {"id":{"name":"ObjTutorial_1","path":"objects/ObjTutorial_1/ObjTutorial_1.yy",},"order":7,},
@@ -60,7 +61,7 @@
     {"id":{"name":"GoToRoomFadeOut","path":"scripts/GoToRoomFadeOut/GoToRoomFadeOut.yy",},"order":0,},
     {"id":{"name":"MiniGameCountDownTimer","path":"objects/MiniGameCountDownTimer/MiniGameCountDownTimer.yy",},"order":0,},
     {"id":{"name":"ObjJumpMan","path":"objects/ObjJumpMan/ObjJumpMan.yy",},"order":2,},
-    {"id":{"name":"ObjectWPOOL","path":"objects/ObjectWPOOL/ObjectWPOOL.yy",},"order":23,},
+    {"id":{"name":"ObjectWPOOL","path":"objects/ObjectWPOOL/ObjectWPOOL.yy",},"order":5,},
     {"id":{"name":"PlaIDLE","path":"sprites/PlaIDLE/PlaIDLE.yy",},"order":0,},
     {"id":{"name":"Spritetransparent","path":"sprites/Spritetransparent/Spritetransparent.yy",},"order":12,},
     {"id":{"name":"SprGameLogo","path":"sprites/SprGameLogo/SprGameLogo.yy",},"order":10,},
@@ -156,6 +157,7 @@
     {"id":{"name":"ObjectKraken","path":"objects/ObjectKraken/ObjectKraken.yy",},"order":4,},
     {"id":{"name":"ObjectFightPickup","path":"objects/ObjectFightPickup/ObjectFightPickup.yy",},"order":3,},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},"order":9,},
+    {"id":{"name":"SoundWPOOL2p","path":"sounds/SoundWPOOL2p/SoundWPOOL2p.yy",},"order":15,},
     {"id":{"name":"sprCarGameBG","path":"sprites/sprCarGameBG/sprCarGameBG.yy",},"order":2,},
     {"id":{"name":"sprBoat2_1","path":"sprites/sprBoat2_1/sprBoat2_1.yy",},"order":0,},
     {"id":{"name":"ObjectTestMiniGameWinButton","path":"objects/ObjectTestMiniGameWinButton/ObjectTestMiniGameWinButton.yy",},"order":3,},

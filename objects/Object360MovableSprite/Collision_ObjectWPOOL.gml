@@ -9,17 +9,17 @@ if(!(global.paused))
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A5895EC
 	/// @DnDParent : 0F0659E7
-	/// @DnDArgument : "expr" "(other.y-y)/8"
+	/// @DnDArgument : "expr" "(other.y-y)/9"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "yvelocity"
-	yvelocity += (other.y-y)/8;
+	yvelocity += (other.y-y)/9;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 23783B2F
 	/// @DnDParent : 0F0659E7
-	/// @DnDArgument : "expr" "(other.x-x)/8"
+	/// @DnDArgument : "expr" "(other.x-x)/9"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "xvelocity"
-	xvelocity += (other.x-x)/8;
+	xvelocity += (other.x-x)/9;
 }
