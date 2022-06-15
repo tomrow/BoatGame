@@ -32,8 +32,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Hazard",
+    "path": "folders/Objects/TOM/Hazard.yy",
   },
   "resourceVersion": "1.0",
   "name": "ObjectKraken",
