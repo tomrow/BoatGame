@@ -10,6 +10,14 @@ if(global.paused)
 	/// @DnDParent : 565AFE48
 	draw_set_alpha(1);
 
+	/// @DnDAction : YoYo Games.Drawing.Set_Color
+	/// @DnDVersion : 1
+	/// @DnDHash : 671DC1DC
+	/// @DnDParent : 565AFE48
+	draw_set_colour($FFFFFFFF & $ffffff);
+	var l671DC1DC_0=($FFFFFFFF >> 24);
+	draw_set_alpha(l671DC1DC_0 / $ff);
+
 	/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 1C79809C
